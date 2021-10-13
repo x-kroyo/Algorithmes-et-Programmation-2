@@ -3,15 +3,24 @@
 
 main () {
 
-    float a, b, c, des, x_1, x_2;
+  	// Les réels de l'équation ax² + bx + c = 0
+    float a, b, c;
+  
+  	// Le descriminent
+  	float des
+      
+    // Les deux solutions de l'équation
+    float x_1, x_2;
 
+  	// Entrer les trois 
     printf("Entrer le nombre a != 0 \n");
     scanf("%f", &a);
     printf("Entrer le nombre b != 0 \n");
     scanf("%f", &b);
     printf("Entrer le nombre c != 0 \n");
     scanf("%f", &c);
-
+  
+  	// Calcule de descriminent b² - 4ac
     des = pow(b, 2) - 4*a*c;
 
     if (des < 0) {
