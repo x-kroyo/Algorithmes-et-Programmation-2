@@ -3,12 +3,14 @@
 
 int main() {
 
-    float a;
+    float a; // Le réel à calculer son racine
 
+    // Lire le réel
     printf("Entrer la valeur de a pour calculer son racine carre \n");
     scanf("%f", &a);
 
-    float u = 1, old;
+    float u = 1; // La valeur n_ème de la suite
+    float old; // La variable à stocker la valeur précedent de du variable {u}
 
     do {
         old = u;

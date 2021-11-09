@@ -1,25 +1,25 @@
 #include <stdio.h>
 #include <math.h>
 
-main () {
+void main () {
 
   	// Les réels de l'équation ax² + bx + c = 0
     float a, b, c;
-  
+
   	// Le descriminent
   	float des
-      
+
     // Les deux solutions de l'équation
     float x_1, x_2;
 
-  	// Entrer les trois 
+  	// Entrer les trois nombres
     printf("Entrer le nombre a != 0 \n");
     scanf("%f", &a);
     printf("Entrer le nombre b != 0 \n");
     scanf("%f", &b);
     printf("Entrer le nombre c != 0 \n");
     scanf("%f", &c);
-  
+
   	// Calcule de descriminent b² - 4ac
     des = pow(b, 2) - 4*a*c;
 
